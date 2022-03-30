@@ -1,4 +1,4 @@
-//Õâ¸öÎÄ¼ş·â×°ÁË¶şÎ¬ÂëµÄ½âÂë
+//è¿™ä¸ªæ–‡ä»¶å°è£…äº†äºŒç»´ç çš„è§£ç 
 #include "ImgDecode.h"
 #include "pic.h"
 #include "code.h"
@@ -16,7 +16,7 @@ namespace ImageDecode
 	};
 	//const int lenlim[RectAreaCount] = { 426,432,1944,432,432,48,24 };
 	const int lenlim[RectAreaCount] = { 138,144,648,144,144,16,8 };
-	const int areapos[RectAreaCount][2][2] = //[2][2],µÚÒ»Î¬¶È´ú±í¸ß¿í£¬µÚ¶şÎ¬¶È´ú±í×óÉÏ½Ç×ø±ê
+	const int areapos[RectAreaCount][2][2] = //[2][2],
 	{
 		{{69,16},{QrPointSize + 3,SafeAreaWidth}},
 		{{16,72},{SafeAreaWidth,QrPointSize}},
